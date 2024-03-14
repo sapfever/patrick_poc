@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_UDMO" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <DM40L>
+    <DMOID>ZUS001</DMOID>
+    <AS4LOCAL>A</AS4LOCAL>
+    <FLG_FRAME>X</FLG_FRAME>
+    <FLG_BUSINS>X</FLG_BUSINS>
+   </DM40L>
+   <UDMO_TEXTS>
+    <item>
+     <SPRACHE>E</SPRACHE>
+     <DMOID>ZUS001</DMOID>
+     <LANGBEZ>SWE_EVENT_CREATE</LANGBEZ>
+     <AS4LOCAL>A</AS4LOCAL>
+    </item>
+   </UDMO_TEXTS>
+   <UDMO_LONG_TEXTS>
+    <item>
+     <LANGUAGE>E</LANGUAGE>
+    </item>
+   </UDMO_LONG_TEXTS>
+  </asx:values>
+ </asx:abap>
+</abapGit>

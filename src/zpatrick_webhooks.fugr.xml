@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>webhooks</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZPATRICK_WEBHOOKSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZPATRICK_WEBHOOKS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZPATRICK_PO_RELEASE</FUNCNAME>
+     <REMOTE_CALL>R</REMOTE_CALL>
+     <SHORT_TEXT>ZPATRICK_PO_RELEASE</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>PO</PARAMETER>
+       <TYP>EBELN</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>RG</PARAMETER>
+       <TYP>FRGGR</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>RC</PARAMETER>
+       <TYP>FRGCO</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>US</PARAMETER>
+       <TYP>UNAME</TYP>
+      </RSIMP>
+     </IMPORT>
+     <EXPORT>
+      <RSEXP>
+       <PARAMETER>RETURN</PARAMETER>
+       <TYP>TXT20</TYP>
+      </RSEXP>
+     </EXPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>PO</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Purchasing Document Number</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RG</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Release group</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RC</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Release code</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>US</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>User Name</STEXT>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>RETURN</PARAMETER>
+       <KIND>P</KIND>
+       <STEXT>Text for Criterion</STEXT>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
